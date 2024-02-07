@@ -40,6 +40,7 @@ public class FilmsController : Controller
     {
         if (!ModelState.IsValid)
         {
+            ViewBag.GenreId = new SelectList(_db.Genres, "GenreId", "Name");
             return View(film);
         }
         _db.Films.Add(film);

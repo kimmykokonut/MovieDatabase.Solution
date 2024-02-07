@@ -4,6 +4,8 @@
 
 ### A C# ASP.NET Mvc Application with EFCore and MySQL
 
+![HomePage](/MovieDatabase/wwwroot/assets/images/splash.png)
+
 #### This app will allow a user to:
 - Create, Read, Update Delete an Actor
 - Create, Read, Update, Delete a Film
